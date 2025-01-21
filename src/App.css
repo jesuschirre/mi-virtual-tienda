@@ -4,42 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 .x2-flex{
   display: grid;
   grid-template-columns: 1fr 6fr;
@@ -54,20 +18,25 @@
 .header nav{
   display: flex;
   flex-direction: column;
-  gap: 6rem;
-  align-items: center; /* Alinea verticalmente los enlaces */
+  flex-wrap: wrap; /* Permite que los botones se muevan a la siguiente fila si es necesario */
+  gap: 6.3rem; /* Espacio entre los botones */
+  padding: 2rem;
+  background-color: #333; /* Fondo oscuro para el nav */
   height: 100%; /* Asegura que el nav ocupe todo el alto de su contenedor */
 }
 
 .header nav a{
-  color: black; /* Color del texto de los enlaces */
-  text-decoration: none; /* Elimina el subrayado por defecto */
-  font-size: 16px; /* Tamaño de la fuente */
-  padding: 10px 15px; /* Espaciado alrededor del texto */
-  transition: all 0.3s ease; /* Transición suave para los efectos hover */
+  text-decoration: none; /* Elimina el subrayado */
+  color: white; /* Color de texto blanco */
+  background-color: #007bff; /* Fondo azul para los botones */
+  padding: 10px; /* Espaciado interno (tamaño del botón) */
+  border-radius: 5px; /* Bordes redondeados */
+  font-weight: bold; /* Texto en negrita */
+  text-align: center;
+  transition: background-color 0.3s ease; /* Transición suave para cambios de color */
+  flex-grow: 1; /* Hace que cada botón ocupe el mismo espacio */
+  text-align: center; /* Alinea el texto al centro */
 }
-
-
 
 footer{
   display: flex;

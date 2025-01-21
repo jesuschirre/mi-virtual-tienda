@@ -1,21 +1,25 @@
 import './App.css'
 
+
+
 function App() {
   return (
     <>
     <div className='x2-flex'>
       <div className='header'>
-          <nav> 
-            <a href="#" className='logo'>logo puta</a>
-            <a href="#">la mas puta</a>
-            <a href="#">putita</a> 
-            <a href="">putita</a><a href="">putita</a><a href="">putita</a><a href="">putita</a><a href="">putita</a>
-          </nav>
+        <nav> 
+          <a href="#" className="logo">Logo</a>
+          <a href="#">La más puta</a>
+          <a href="#">Putita</a> 
+          <a href="#">Putita</a>
+          <a href="#">Putita</a>
+          <a href="#">Putita</a>
+          <a href="#">Putita</a>
+          <a href="#">Putita</a>
+        </nav>
       </div>
       <main>
-        <section>
-          <p>Este es el contenido de ejemplo para mi proyecto.</p>
-        </section>
+      
       </main>
     </div>
 
