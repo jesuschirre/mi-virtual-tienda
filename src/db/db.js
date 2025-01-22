@@ -1,12 +1,12 @@
 export const products = [
   {
     id: 1,
-    name: "galleta",
-    category: "gaseosa"
+    name: "maria",
+    category: "galleta"
   },
   {
     id: 2,
-    name: "maria",
-    category: "galleta"
+    name: "gaseosa",
+    category: "cocacola"
   }
 ];
